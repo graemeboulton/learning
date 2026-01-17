@@ -1,0 +1,59 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 100,
+            "server": "localhost",
+            "port": 5433,
+            "name": "dvdrantal-local",
+            "driver": "PostgreSQL",
+            "database": "dvdrental",
+            "username": "postgres",
+            "password": "password"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "exercise_db",
+            "username": "graemeboulton",
+            "password": "Morpeth22!",
+            "name": "Exercise"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Learning DB",
+            "database": "learning",
+            "username": "postgres",
+            "password": "password"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "School DB",
+            "database": "school",
+            "username": "postgres",
+            "password": "password"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Calendar DB",
+            "database": "calendar_db",
+            "username": "postgres",
+            "password": "password"
+        }
+    ]
+}

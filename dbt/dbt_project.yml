@@ -1,0 +1,15 @@
+name: 'my_dbt_project'
+version: '1.0'
+config-version: 2
+
+profile: 'default'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+models:
+  my_dbt_project:
+    +materialized: view
