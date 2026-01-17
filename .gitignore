@@ -1,0 +1,2 @@
+# Ignore large JSON files
+Databricks/Data Engineering Associate/Data Ingestion with Lakeflow Connect/raw/events-500k-json/*.json
